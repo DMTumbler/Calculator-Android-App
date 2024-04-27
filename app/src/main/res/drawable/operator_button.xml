@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the button background for when the button is pressed -->
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="1000dp"/>
+            <solid android:color="#F0F0F0"/> <!-- Change this to the color you want when the button is pressed -->
+            <stroke android:color="@color/desertSand" android:width="5dp"/> <!-- This creates the glow effect -->
+        </shape>
+    </item>
+    <!-- Define the button background for when the button is not pressed -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="1000dp"/>
+            <solid android:color="@color/burntSienna"/>
+        </shape>
+    </item>
+</selector>
