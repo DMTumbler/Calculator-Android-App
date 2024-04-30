@@ -4,7 +4,7 @@ First serious and completed project. Developed in android studio with Java. Uses
 It functions similarly to most calculators out there, the mayor difference being the option add dice rolls to your calculations. Pressing a `dice` button will generate a number in the range of the dice being pressed.
 
 Eg.
-7 + d20 + 2 = 11
+7 + d20 + 2 = 11 == 
 (7 + 2 + 2 = 11)
 
 In the example above the d20 "roll" is revealed to be a two. In the future there will be an option to hide rolls until the equals button is pressed.
